@@ -9,8 +9,8 @@ pushplus_token = os.environ["PUSH_PLUS_TOKEN"]
 #是否打开推送开关
 ispush = True
 
-username = os.environ["11name"]
-password = os.environ["11pwd"]
+username = os.environ["name_11game"]
+password = os.environ["pwd_11game"]
 all_dict = {}
 st = ""
 tgw_l7_route = ""
