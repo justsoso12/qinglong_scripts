@@ -20,6 +20,8 @@ ql repo https://ghproxy.com/https://github.com/justsoso12/qinglong_scripts.git "
 
 3、just_lwxq.js      乐玩星球每日签到
 
+4、just_11game_free_box.py  11Game平台 dota签到获取碎片（春季活动奖励领取）
+
 青龙面板安装及cookie获取：
 
 https://www.pangzhai.xyz/docker_qinglong/
