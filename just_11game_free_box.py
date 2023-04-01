@@ -1,3 +1,7 @@
+"""
+cron: 45 1 * * *
+new Env('11Game领取奖励');
+"""
 import requests
 import os
 import json
