@@ -140,7 +140,7 @@ def getfreebox():
 
 def gettaskdata(tp):
     global cookie
-    gettaskdata_url = "https://actdota.5211game.com/lbps2023/JP/GetTaskData"
+    gettaskdata_url = "https://actdota.5211game.com/LBPS202351/JP/GetTaskData"
     gettaskdata_head = {
         "host": "actdota.5211game.com",
         "sec-ch-ua": '"Chromium";v="110", "Not A(Brand";v="24", "Google Chrome";v="110"',
@@ -153,7 +153,7 @@ def gettaskdata(tp):
         "sec-fetch-site": "same-origin",
         "sec-fetch-mode": "cors",
         "sec-fetch-dest": "empty",
-        "referer": "https://actdota.5211game.com/lbps2023",
+        "referer": "https://actdota.5211game.com/LBPS202351",
         "accept-encoding": "gzip, deflate, br",
         "accept-language": "zh-CN,zh;q=0.9,en;q=0.8",
         "cookie": cookie
@@ -173,7 +173,7 @@ def gettaskdata(tp):
 
 
 def dealtask(tid):
-    dealtask_url = "https://actdota.5211game.com/lbps2023/JP/RcvTask"
+    dealtask_url = "https://actdota.5211game.com/LBPS202351/JP/RcvTask"
     dealtask_head = {
         "host": "actdota.5211game.com",
         "sec-ch-ua": '"Chromium";v="110", "Not A(Brand";v="24", "Google Chrome";v="110"',
@@ -186,7 +186,7 @@ def dealtask(tid):
         "sec-fetch-site": "same-origin",
         "sec-fetch-mode": "cors",
         "sec-fetch-dest": "empty",
-        "referer": "https://actdota.5211game.com/lbps2023",
+        "referer": "https://actdota.5211game.com/LBPS202351",
         "accept-encoding": "gzip, deflate, br",
         "accept-language": "zh-CN,zh;q=0.9,en;q=0.8",
         "cookie": cookie
@@ -203,7 +203,7 @@ def dealtask(tid):
 def getcookie():
     global cookie
     cookie =""
-    getcookie_url = f"https://actdota.5211game.com/lbps2023/Passport?returnurl=http://actdota.5211game.com/lbps2023&st={st}"
+    getcookie_url = f"https://actdota.5211game.com/LBPS202351/Passport?returnurl=http://actdota.5211game.com/LBPS202351&st={st}"
     getcookie_head = {
         "host": "actdota.5211game.com",
         "upgrade-insecure-requests": "1",
